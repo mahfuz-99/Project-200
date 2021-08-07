@@ -1,0 +1,499 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+* {
+	margin: 0px;
+	padding: 0px;
+	}
+	body {
+		background-image: url("project.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		background-position: auto;
+		}
+		h1{
+			font-size: 60px;
+			margin-top: 30px;
+		}
+		h2{
+			font-size: 40px;
+		}
+	.btn {
+		background-color:#D292D1;
+		color: whitesmoke;
+		width: 200px;
+		height: 60px;
+		font-size: 1.5em;
+		margin-left: 400px;
+		margin-top: 100px;
+		border-radius: 15px;
+		font-weight: bolder;
+		cursor: pointer;
+		}
+		
+		.btn:hover {
+		background-color: #9D0029;
+		color: whitesmoke;
+		}
+	.title-p{
+		color:whitesmoke;
+		font-size: 22px;
+		margin-top: 200px;
+	}
+	.title{
+		color: white;
+		font-weight: bold;
+		font-size: 60px;
+		text-align: center;
+			position: relative;
+			top: 150px;
+			
+	}
+	.container {
+		padding: 16px;
+	}
+	.overlay{
+
+		height: 900px;
+		width: auto;
+		background: rgba(36, 37, 42, 0.9);
+	
+	
+	}
+	.overlay2{
+		height: 900px;
+		width: auto;
+		
+	}
+	.welcome{
+		height: 100%;
+		width: auto;
+		background-repeat: no-repeat;
+		background-position: center;
+		
+	
+	}
+	a {
+		color:whitesmoke;
+		 margin-top: 35px;
+	}
+	.main-nav li{
+		margin-right: 30px;
+		color: white;
+		text-align: center;
+		font-size: 1.2em;
+	}
+	.main-nav{
+		background:black;
+		height: 55px;
+	
+	}
+	
+	.nav-right{
+		color: black;
+		margin-right: 20px;
+	}
+	.nav-right li{
+		margin-right: 20px;
+	}
+	.logo{
+		height: 40.5px;
+		width: 90px;
+		margin-left:-20px;
+	}
+	#brand{
+		color: black;
+	}
+	#Event {
+		background-color: darkgoldenrod;
+		}
+		
+		#committee {
+		background-color: crimson;
+		height: 500px;
+		}
+		
+		#contact {
+		background-color: darkgoldenrod;
+		}
+		
+		#About {
+			background-color:rgba(36, 37, 42, 0.9);
+		}
+		
+		#footer {
+		background-color: indianred;
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		#progrramme {
+		
+		background-image: linear-gradient(500deg,#9D0029,#009D74);
+		font-size: auto;
+		}
+		
+		.eventp 
+		{
+		color: whitesmoke;
+		font-size: 25px;
+		margin-top: auto;
+		text-align: center;
+		
+		}
+		
+		
+		.title-t {
+		
+		color: whitesmoke;
+		text-align: center;
+		font-size: 80px;
+		font-weight: bolder;
+		margin-top: 60px;
+		}
+		
+		
+		
+		.box {
+		height: 370px;
+		width: 380px;
+		background: #D2B392;
+		margin-left: 55px;
+		margin-top: auto;
+		box-shadow: 5px 5px 5px #D2B392;
+		border: 0px solid black;
+		float: left;
+		}
+		
+		.box:hover {
+		background-color:whitesmoke;
+		}
+		
+		
+		.buttonc {
+		border-radius: 50px;
+		padding: 20px 30px;
+		display: block;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		margin-top:  78px;
+		background-color:#D292D1;
+		color: black;
+		font-style: bolder;
+		font-size: 20px;
+		
+		}
+		
+		
+		.buttonb {
+		border-radius: 50px;
+		padding: 20px 30px;
+		display: block;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		margin-top:  20px;
+		background-color:#D292D1;
+		color: black;
+		font-style: bolder;
+		font-size: 20px;
+		
+		}
+		
+		.buttona {
+		border-radius: 50px;
+		padding: 20px 30px;
+		display: block;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		margin-top:  60px;
+		background-color:#D292D1;
+		color: black;
+		font-style: bolder;
+		font-size: 20px;
+		}
+		
+		
+		
+		
+		.buttonb:hover {
+		background-color:#9D0029 ;
+		color: black;
+		}
+		
+		.buttona:hover {
+		background-color:#9D0029 ;
+		color: black;
+		}
+		
+		.buttonc:hover {
+		background-color:#9D0029 ;
+		color: black;
+		}
+		
+		
+		
+		
+		.colbox {
+		color:#9075D8;
+		text-align: center;
+		margin-top: 0px;
+		
+		}
+		
+		
+		
+		.fontev {
+		margin-top: 20px;
+		font-size: 20px;
+		text-align: center;
+		
+		}
+		#customers {
+		font-family: sans-serif;
+		border-radius: 10px;
+		width: 100%;
+		}
+		
+		#customers td, #customers th {
+		border: 2px dashed black;
+		padding: 5px;
+		border-radius: 50px;
+		}
+		
+		
+		
+		
+		
+		
+		
+		#customers th {
+		padding-top: 25px;
+		padding-bottom: 25px;
+		background-color: #D2B392;
+		color: #9D0029;
+		text-align: center;
+		font-size: 1.3em;
+		}
+		#customers td
+		{
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+		background-color: #D2B392;
+		color: #9D0029;
+		font-size: 1.3em;
+		
+		}
+		.title-2p
+		{
+		color:whitesmoke;
+		font-size: 25px;
+		margin-top: 50px;
+		text-align: center;
+		}
+		.title2{
+		color: whitesmoke;
+		font-weight: bold;
+		font-size: 80px;
+		text-align: center;
+    margin-top: 70px;
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		.bgd{
+			background:rgba(36, 37, 42, 0.9);
+		}
+		
+		.regform { 
+		width: 500px; 
+		background-color:none;
+		margin: auto;
+		color: whitesmoke;
+		padding: 30px 0px 30px 0px; 
+		text-align: center;
+
+		}
+		
+		.main { 
+		background-color: none;
+		width: 800px; 
+		margin: auto;
+		}
+		
+		form { 
+		padding:10px; 
+		}
+		
+		
+		#name { 
+		width: 100%;
+		height: 100px;
+		}
+		
+		.name { 
+		margin-left: 25px;
+		margin-top: 20px; 
+		width: 125px;
+		color: #D2B392;
+		font-size: 18px;
+		font-weight: 700;
+		}
+		
+		.firstname { 
+		position: relative;
+		left: 200px;
+		top: -37px; 
+		line-height: 40px;
+		border-radius: 6px;
+		padding: 0 22px;
+		font-size: 16px;
+		}
+		
+		.lastname { 
+		position: relative;
+		left: 500px;
+		top: -80px;
+		line-height: 38px;
+		border-radius: 6px; 
+		padding: 0 22px;
+		font-size: 16px;
+		
+		}
+		
+		.firstlabel { 
+		position: relative;
+		color: #009D74;
+		text-transform: capitalize;
+		font-size: 14px;
+		left: 203px; 
+		top: -45px;
+		}
+		
+		.lastlabel { 
+		position: relative;
+		color: #009D74;
+		text-transform: capitalize;
+		font-size: 14px;
+		left: 175px; 
+		top: -45px;
+		}
+		
+		
+		
+		.email { 
+		position: relative;
+		left: 200px;
+		top: -35px;
+		line-height: 40px;
+		width: 300px;
+		border-radius: 6px;
+		padding: 0 20px; 
+		font-size: 16px;
+		
+		}
+		
+		
+		
+		
+		
+		
+		.option { 
+		position: relative;
+		left: 200px;
+		top: -37px;
+		line-height: 40px;
+		width: 532px;
+		height: 40px; 
+		border-radius: 6px;
+		padding: 0 22px; 
+		font-size: 16px;
+		color: #555;
+		outline: none; 
+		overflow: hidden;
+		}
+		
+		.option option{ 
+		font-size: 20px; 
+		}
+		
+		#customer { 
+		margin-left: 25px; 
+		color: #D2B392;
+		font-size: 18px;
+		}
+		
+		.radio { 
+		display: inline-block;
+		padding-right: 70px; 
+		font-size: 25px; 
+		margin-left: 25px;
+		margin-top: 15px; 
+		color: #D2B392;
+		}
+		
+		.radio input{ 
+		width: 20px;
+		height: 20px;
+		border-radius: 50%; 
+		cursor: pointer; 
+		outline: none;
+		}
+		
+		
+		
+		
+		
+		.textbox{
+		width: 100%;
+		overflow: hidden;
+		font-size: 20px;
+		padding: 8px 0;
+		margin: 8px 15px;
+		border-bottom: 1px solid black;
+		}
+		
+		.textbox input{
+		border: none;
+		outline: none;
+		background: none;
+		color: whitesmoke;
+		font-size: 18px;
+		width: 80%;
+		float: left;
+		margin: 0 10px;
+		}
+		
+		.fkbtn{
+		width: 20%;
+		background: none;
+		border: 2px solid none;
+		color: whitesmoke;
+		padding: 15px;
+		font-size: 30px;
+		cursor: pointer;
+		margin-left: 300px;
+		margin-right: 300px;
+		}
+
+
+	
+		footer {
+			background: cyan;
+			color: black;
+			height: 45px;
+			text-align: center;
+
+		}
